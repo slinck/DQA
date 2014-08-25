@@ -14,6 +14,8 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import com.operativecomputing.cl.*;
+
 /**
  *
  * @author steve.linck
@@ -29,6 +31,7 @@ public class DQA extends Application {
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
+                CommanLine.getConn();
             }
         });
         
